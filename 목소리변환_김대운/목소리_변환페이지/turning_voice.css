@@ -16,6 +16,7 @@ header {
   display: flex;
   border-bottom: 1px solid #000000;
   justify-content: space-between;
+  z-index: 2;
 }
 
 #menus {
@@ -52,4 +53,5 @@ header {
   height: 69.08px;
   border-bottom: 3px solid #279b6a;
   text-align: center;
+  z-index: 1;
 }
