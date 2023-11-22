@@ -1,0 +1,36 @@
+#logo {
+  font-family: "Allerta Stencil", sans-serif;
+  width: 136px;
+  height: 76px;
+  font-size: 54px;
+  padding-left: 43px;
+  padding-top: 27px;
+}
+
+header {
+  height: 114px;
+  display: flex;
+  border-bottom: 1px solid #000000;
+}
+
+#menus {
+  display: flex;
+  height: 38.75px;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-top: 41.92px;
+  font-size: 25px;
+}
+
+#start-free {
+  font-family: "Noto Sans KR", sans-serif;
+  width: 186px;
+  height: 55px;
+  border-radius: 14px;
+  border: none;
+  background-color: #4ada5d;
+  font-size: 20px;
+}
+
+input {
+  margin-top: 25.33px;
+}
