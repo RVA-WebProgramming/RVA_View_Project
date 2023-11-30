@@ -7,11 +7,13 @@ ul {
   list-style: none;
 }
 
+/* 헤더 부분 시작 */
+
 header {
   border-bottom: 0.5px black solid;
 }
 
-.container {
+.header_container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -31,7 +33,7 @@ header {
   margin-top: 39px;
 }
 
-.center {
+.content p:nth-child(2) {
   margin-left: 148px;
   margin-right: 145px;
 }
@@ -48,8 +50,34 @@ header {
   font-family: "Noto Sans KR", sans-serif;
 }
 
-.QnA {
+/* 여기까지 헤더 부분 */
+
+/* 메인 부분 시작 */
+
+.main_container {
+  display: flex;
+  justify-content: space-around;
   background-color: rgb(217, 217, 217);
   width: 100%;
   height: 861px;
+}
+
+.leftarrow, .rightarrow {
+  margin-top: 392px;
+}
+
+.qna {
+  text-align: center;
+  margin-top: 213px;
+  
+}
+
+.qna p:nth-child(1){
+  font-weight: bold;
+  font-size: 132px;
+}
+
+.qna p:nth-child(2) {
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;  
 }
