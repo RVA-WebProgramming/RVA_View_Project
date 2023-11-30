@@ -10,7 +10,8 @@
 
 header {
   width: 1920px;
-  height: 100px;
+  height: 72px;
+  border-bottom: 0.5px solid #000;
 }
 
 .menus {
@@ -37,6 +38,9 @@ header {
   font-weight: 500;
   margin-left: 1673px;
   margin-top: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .RVA {
@@ -114,4 +118,27 @@ header {
   width: 1920px;
   height: 278px;
   background: #262626;
+}
+
+.bottom_logo {
+  margin-top: 58px;
+  margin-left: 237px;
+}
+
+.bottom_text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 237px;
+  margin-top: 25px;
+}
+
+.address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 237px;
+  margin-top: 21px;
 }
