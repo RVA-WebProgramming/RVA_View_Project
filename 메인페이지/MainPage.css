@@ -8,35 +8,39 @@ ul {
 }
 
 header {
-  width: 100%;
-  height: 114px;
   border-bottom: 0.5px black solid;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 114px;
+}
+
 .Logo {
-  float: left;
   margin: 39px 0px 0px 59px;
 }
 
-.Link > li {
-  float: left;
+.content {
+  display: flex;
+  white-space: nowrap;
   font-size: 25px;
-  font-family: "Noto Sans KR", sans-serif;
   font-weight: 600;
-  margin-right: 148px;
+  height: 36px;
   margin-top: 39px;
 }
 
-.Link > li:first-child {
-  margin-left: 464px;
+.center {
+  margin-left: 148px;
+  margin-right: 145px;
 }
 
 .free {
   background-color: rgb(74, 218, 93);
   width: 186px;
   height: 55px;
-  margin-left: 258px;
-  margin-top: 29px;
+  margin: 29px 60px 0px 0px;
   border-radius: 14px;
   border: 0px;
   font-size: 20px;
