@@ -7,6 +7,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* 헤더 부분 시작 */
 
 header {
@@ -33,7 +38,6 @@ header {
   margin-top: 39px;
 }
 
-<<<<<<< Updated upstream:목소리변환_김대운/목소리_변환페이지/turning_voice.css
 .content p:nth-child(2) {
   margin-left: 148px;
   margin-right: 145px;
@@ -41,66 +45,15 @@ header {
 
 .free {
   background-color: rgb(74, 218, 93);
-=======
-<<<<<<< Updated upstream
-.hovers {
-=======
-.mh {
-  height: 72px;
-  width: 140px;
-  padding-top: 42px;
-  text-align: center;
-}
-
-.mh:hover {
-  background-color: #d9d9d9;
-  color: #000000;
-  border: inset 5px solid;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-#start-free {
-  font-family: "Noto Sans KR", sans-serif;
->>>>>>> Stashed changes
->>>>>>> Stashed changes:목소리변환/목소리_변환페이지_김대운/turning_voice.css
   width: 186px;
   height: 55px;
   margin: 29px 60px 0px 0px;
   border-radius: 14px;
   border: 0px;
   font-size: 20px;
-<<<<<<< Updated upstream:목소리변환_김대운/목소리_변환페이지/turning_voice.css
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif;
-=======
-<<<<<<< Updated upstream
-  font-weight: 500;
-  margin-left: 1673px;
-  margin-top: 25px;
-  position: absolute;
-  top: 0;
-  left: 0;
-=======
-  margin-right: 67px;
-  margin-top: 25.33px;
-  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
-  transition: box-shadow 0s ease;
-}
-
-#start-free.clicked {
-  box-shadow: none;
-}
-
-#AIvoices {
-  color: #279b6a;
-  border-bottom: 3px solid #279b6a;
-  text-align: center;
-  z-index: 1;
-  height: 71px;
-  width: 140px;
-  padding-top: 42px;
->>>>>>> Stashed changes
->>>>>>> Stashed changes:목소리변환/목소리_변환페이지_김대운/turning_voice.css
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* 여기까지 헤더 부분 */
