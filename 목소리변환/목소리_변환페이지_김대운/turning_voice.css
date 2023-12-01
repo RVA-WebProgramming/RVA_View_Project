@@ -7,6 +7,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* 헤더 부분 시작 */
 
 header {
@@ -48,36 +53,7 @@ header {
   font-size: 20px;
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* 여기까지 헤더 부분 */
-
-/* 메인 부분 시작 */
-
-.main_container {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgb(217, 217, 217);
-  width: 100%;
-  height: 861px;
-}
-
-.leftarrow, .rightarrow {
-  margin-top: 392px;
-}
-
-.qna {
-  text-align: center;
-  margin-top: 213px;
-  
-}
-
-.qna p:nth-child(1){
-  font-weight: bold;
-  font-size: 132px;
-}
-
-.qna p:nth-child(2) {
-  font-size: 30px;
-  font-family: "Noto Sans KR", sans-serif;  
-}

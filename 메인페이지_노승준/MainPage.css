@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* 헤더 부분 시작 */
+
+header {
+  border-bottom: 0.5px black solid;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 114px;
+}
+
+.Logo {
+  margin: 39px 0px 0px 59px;
+}
+
+.content {
+  display: flex;
+  white-space: nowrap;
+  font-size: 25px;
+  font-weight: 600;
+  height: 36px;
+  margin-top: 39px;
+}
+
+.content p:nth-child(2) {
+  margin-left: 148px;
+  margin-right: 145px;
+}
+
+.free {
+  background-color: rgb(74, 218, 93);
+  width: 186px;
+  height: 55px;
+  margin: 29px 60px 0px 0px;
+  border-radius: 14px;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Noto Sans KR", sans-serif;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* 여기까지 헤더 부분 */
+
+/* 메인 부분 시작 */
+
+.main_container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(217, 217, 217);
+  width: 100%;
+  height: 867px;
+}
+
+.leftarrow, .rightarrow {
+  margin-top: 392px;
+}
+
+.qna {
+  text-align: center;
+  margin-top: 213px;
+}
+
+.qna p:nth-child(1){
+  font-weight: bold;
+  font-size: 132px;
+}
+
+.qna p:nth-child(2) {
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;  
+}
+
+.learn_more {
+  width: 343px;
+  height: 80px;
+  margin-top: 85px;
+  font-size: 28px;
+  border: 3px black solid;
+  border-radius: 19px;
+  background-color: rgb(217, 217, 217);
+}
+
+.circle {
+  display: flex;
+  justify-content: space-between;
+  width: 103px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 135px;
+}
+
+.mini_circle {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* 여기까지 메인 부분 */
+
+/* 푸터 부분 시작 */
+
+.footer_container {
+  background-color: rgba(38, 38, 38, 1);
+  white-space: nowarp;
+  color: white;
+  padding: 65px 0px 65px 230px;
+}
