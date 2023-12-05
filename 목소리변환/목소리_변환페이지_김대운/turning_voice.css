@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  height: 114px;
+  border-bottom: 1px solid black;
+}
+
+.Logo {
+  margin-top: 39px;
+  margin-left: 59px;
+  height: 40px;
+}
+
+.over:hover {
+  cursor: pointer;
+}
