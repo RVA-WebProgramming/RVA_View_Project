@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
+
+* {
+  border: 0px;
+  margin: 0px;
+}
+
 header {
   display: flex;
+  justify-content: space-between;
   height: 114px;
   border-bottom: 1px solid black;
 }
@@ -12,4 +20,53 @@ header {
 
 .over:hover {
   cursor: pointer;
+}
+
+#menu-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+  width: 633px;
+  margin-top: 39px;
+}
+
+.side-menu {
+  width: 121px;
+  height: 36px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.side-menu:hover {
+  color: gray;
+}
+
+.center-menu {
+  width: 98px;
+  height: 36px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.center-menu:hover {
+  color: gray;
+}
+
+#start-free {
+  width: 186px;
+  height: 55px;
+  border-radius: 14px;
+  background-color: #4ada5d;
+  border: none;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 29px;
+  margin-right: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#start-free:hover {
+  background-color: rgba(74, 218, 93, 0.7);
 }
