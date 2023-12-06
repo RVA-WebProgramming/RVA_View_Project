@@ -134,6 +134,7 @@ header {
 .bottom_logo {
   margin-top: 58px;
   margin-left: 237px;
+  filter: invert(100%);
 }
 
 .bottom_text {
