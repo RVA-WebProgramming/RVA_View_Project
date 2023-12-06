@@ -57,7 +57,12 @@ header {
   text-align: center;
 }
 
-.center-menu:hover {
+.center-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.center-menu a:hover {
   color: gray;
 }
 
@@ -161,4 +166,16 @@ footer p {
 
 footer p a {
   color: white;
+}
+
+.func img:hover {
+}
+
+#musicvocalupload a {
+  color: black;
+  text-decoration: none;
+}
+
+#musicvocalupload a:hover {
+  color: gray;
 }
