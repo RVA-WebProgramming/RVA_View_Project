@@ -40,7 +40,12 @@ header {
   text-align: center;
 }
 
-.side-menu:hover {
+.side-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.side-menu a:hover {
   color: gray;
 }
 
