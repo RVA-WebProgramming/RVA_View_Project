@@ -1,19 +1,20 @@
-document.getElementById("start_free").addEventListener("click", () => {
-  document.getElementById("start_free").style.boxShadow = "none";
+var sf = document.getElementById("start_free");
+var cv = document.getElementById("check_voice");
+
+sf.addEventListener("click", () => {
+  sf.style.boxShadow = "none";
   setTimeout(() => {
-    document.getElementById("start_free").style.boxShadow =
-      "0px 4px 4px rgba(0, 0, 0, 0.25)";
+    sf.style.boxShadow = "0px 4px 4px rgba(0, 0, 0, 0.25)";
   }, 80);
 });
 
-document.getElementById("start_free").addEventListener("click", () => {
+sf.addEventListener("click", () => {
   location.reload();
 });
 
-document.getElementById("check_voice").addEventListener("click", () => {
-  document.getElementById("check_voice").style.boxShadow = "none";
+cv.addEventListener("click", () => {
+  cv.style.boxShadow = "none";
   setTimeout(() => {
-    document.getElementById("check_voice").style.boxShadow =
-      "0px 4px 4px rgba(0, 0, 0, 0.25)";
+    cv.style.boxShadow = "0px 4px 4px rgba(0, 0, 0, 0.25)";
   }, 120);
 });

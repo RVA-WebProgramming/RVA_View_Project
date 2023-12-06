@@ -49,6 +49,11 @@ header {
   margin-right: 793px;
 }
 
+#RVA {
+  width: 333px;
+  height: 175px;
+}
+
 .introduce {
   font-family: "Noto Sans KR", sans-serif;
   font-size: 41px;

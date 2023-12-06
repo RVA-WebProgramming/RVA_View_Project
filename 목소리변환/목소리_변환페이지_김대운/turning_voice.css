@@ -168,14 +168,11 @@ footer p a {
   color: white;
 }
 
-.func img:hover {
-}
-
 #musicvocalupload a {
   color: black;
   text-decoration: none;
 }
 
-#musicvocalupload a:hover {
-  color: gray;
+.func:hover {
+  background-color: #e8e8e8;
 }
