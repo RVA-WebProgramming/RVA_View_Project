@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -52,6 +54,9 @@ header {
 #RVA {
   width: 333px;
   height: 175px;
+  font-size: 137px;
+  text-align: center;
+  font-family: "Allerta Stencil", sans-serif;
 }
 
 .introduce {
@@ -90,8 +95,9 @@ header {
   width: 48px;
   height: 53px;
   justify-content: center;
-  margin-top: 47px;
-  margin-left: 161px;
+  display: flex;
+  display: inline-block;
+  margin-left: auto;
 }
 
 .uploade-text {
@@ -146,4 +152,19 @@ header {
   font-weight: 400;
   margin-left: 237px;
   margin-top: 21px;
+}
+
+#user_icon {
+  width: 47.73px;
+  height: 53px;
+}
+
+#headphone_icon {
+  width: 75px;
+  height: 69.57px;
+}
+
+.buttton {
+  justify-content: center;
+  border: none;
 }
