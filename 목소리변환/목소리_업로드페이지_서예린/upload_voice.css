@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
-
 * {
   margin: 0px;
   padding: 0px;
@@ -51,14 +49,6 @@ header {
   margin-right: 793px;
 }
 
-#RVA {
-  width: 333px;
-  height: 175px;
-  font-size: 137px;
-  text-align: center;
-  font-family: "Allerta Stencil", sans-serif;
-}
-
 .introduce {
   font-family: "Noto Sans KR", sans-serif;
   font-size: 41px;
@@ -72,13 +62,11 @@ header {
 }
 
 .uploade {
-  display: flex;
-  justify-content: center; /* 가로 방향으로 가운데 정렬 */
+  display: flex; /* 가로 방향으로 가운데 정렬 */
   align-items: center;
   width: 100%;
   max-width: 1920px;
   margin-top: 20px;
-  gap: 157px;
 }
 
 .upload-voice,
@@ -91,13 +79,20 @@ header {
   margin-top: 79px;
 }
 
+.upload-voice {
+  margin-left: 513px;
+}
+
+.upload-vocal {
+  margin-left: 154px;
+}
+
 .user {
   width: 48px;
   height: 53px;
   justify-content: center;
-  display: flex;
-  display: inline-block;
-  margin-left: auto;
+  margin-top: 47px;
+  margin-left: 161px;
 }
 
 .uploade-text {
@@ -134,7 +129,6 @@ header {
 .bottom_logo {
   margin-top: 58px;
   margin-left: 237px;
-  filter: invert(100%);
 }
 
 .bottom_text {
@@ -153,19 +147,4 @@ header {
   font-weight: 400;
   margin-left: 237px;
   margin-top: 21px;
-}
-
-#user_icon {
-  width: 47.73px;
-  height: 53px;
-}
-
-#headphone_icon {
-  width: 75px;
-  height: 69.57px;
-}
-
-.buttton {
-  justify-content: center;
-  border: none;
 }
